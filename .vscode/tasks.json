@@ -3,14 +3,14 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "command": "g++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "layers/application.cpp",
                 "layers/link.cpp",
-                "network.cpp",
-                "transport.cpp",
+                "layers/network.cpp",
+                "layers/transport.cpp",
                 "main.cpp",
                 "-Wall",
                 "-o",
