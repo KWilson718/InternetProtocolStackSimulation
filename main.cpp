@@ -10,6 +10,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 using std::string;
+using std::getline;
 
 int main(){
     string message = "";
@@ -19,7 +20,7 @@ int main(){
     TransportLayer transportLayer;
 
     cout << "Welcome to The Internet Protocol Stack Simulation:" << endl << "Please Enter The Message You'd Like to Transmit..." << endl;
-    cin >> message;
+    getline(cin, message);
 
     cout << "==== Sending ====" << endl;
 

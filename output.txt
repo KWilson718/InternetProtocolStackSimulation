@@ -1,0 +1,18 @@
+Welcome to The Internet Protocol Stack Simulation:
+Please Enter The Message You'd Like to Transmit...
+
+>> This is a Test >>
+
+==== Sending ====
+[Application Layer] Sending: This is a Test
+[Transport Layer] Sending: APP_HDR|This is a Test
+[Network Layer] Sending: TRANS_HDR|APP_HDR|This is a Test
+[Link Layer] Sending: NET_HDR|TRANS_HDR|APP_HDR|This is a Test
+==== Recieving ====
+[Link Layer] Receiving: LINK_HDR|NET_HDR|TRANS_HDR|APP_HDR|This is a Test
+[Network Layer] Receiving: NET_HDR|TRANS_HDR|APP_HDR|This is a Test
+[Transport Layer] Receiving: TRANS_HDR|APP_HDR|This is a Test
+[Application Layer] Receiving: APP_HDR|This is a Test
+
+All Done!
+Message Recieved: This is a Test
