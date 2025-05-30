@@ -1,6 +1,7 @@
 # InternetProtocolStackSimulation
 Members: Gerry Summers, Kyle Wilson, Riley Suomi.
 <hr>
+
 ## Description
 
 This project is a C++ simulation of the Internet Protocol Stack, designed to demonstrate how data is transmitted and received across different layers of a network protocol. The simulation includes the following layers:
@@ -25,3 +26,11 @@ The simulation excludes the Physical Layer for simplicity and focuses on clear c
     - The fully encapsulated message is passed back up the stack starting at the Link Layer.
     - Each layer removes its corresponding header.
     - The final message is recovered at the Application Layer and displayed as the received message.
+
+## How to Run
+
+### Running in VS Code
+
+1. Open the project folder (`network_sim/`) in Visual Studio Code.
+2. Press `Ctrl+Shift+B` to build and run the program using the configured task.
+3. Output will appear in the terminal showing the send and receive process.
